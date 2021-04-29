@@ -7,7 +7,7 @@ fun main(argumentos : Array<String>) {
 
     val numero = argumentos[0].toIntOrNull()
 
-    if(numero == null){
+    if(numero == null) {
         println("O Valor informado não é um número válido!")
         return
     }
