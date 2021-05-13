@@ -1,6 +1,6 @@
 import java.math.BigDecimal
 
-fun calculaOperacao(primeiroNumero : BigDecimal, operador : String, segundoNumero : BigDecimal) : BigDecimal {
+fun calcularOperacao(primeiroNumero : BigDecimal, operador : String, segundoNumero : BigDecimal) : BigDecimal {
     when(operador){
         "+" -> return primeiroNumero + segundoNumero
         "-" -> return primeiroNumero - segundoNumero
@@ -39,6 +39,6 @@ fun main() {
         return
     }
 
-    val resultado = calculaOperacao(primeiroNumero, operador, segundoNumero)
+    val resultado = calcularOperacao(primeiroNumero, operador, segundoNumero)
     println("O resultado da sua operação foi: $resultado")
 }
